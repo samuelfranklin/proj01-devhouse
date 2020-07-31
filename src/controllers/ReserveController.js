@@ -1,7 +1,7 @@
 import { json } from 'express';
-import Reserve from '../models/Reserve';
-import User from '../models/User';
-import House from '../models/House';
+import { House, User, Reserve } from '../models';
+
+
 
 class ReserveController {
     async index (req, res) {

@@ -9,7 +9,7 @@
     destroy: Deletar uma sessão
 */
 
-import House from '../models/House';
+import { House } from '../models';
 
 class DashboardController {
     async show(req, res) {

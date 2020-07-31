@@ -9,7 +9,7 @@
     destroy: Deletar uma sessão
 */
 
-import User from '../models/User';
+import { User } from '../models';
 
 class SessionController{
     async store(req, res) {

@@ -1,11 +1,12 @@
 import { Router } from 'express';
 import multer from 'multer';
 import uploadConfig from './config/upload';
-
-import SessionController from './controllers/SessionController';
-import HouseController from './controllers/HouseController';
-import DashboardController from './controllers/DashboardController';
-import ReserveController from './controllers/ReserveController';
+import { 
+    DashboardController,
+    SessionController,
+    ReserveController,
+    HouseController
+} from './controllers';
 
 const routes = new Router();
 const upload = multer(uploadConfig);
